@@ -20,7 +20,7 @@ Validar automaticamente os principais endpoints da API (clientes, contas, transa
 ---
 
 ## 📁 Estrutura do repositório
-> Observação: esta estrutura foi verificada diretamente no repositório. citeturn0view0
+> Observação: esta estrutura foi verificada diretamente no repositório. 
 
 ```
 banco-api-testes/
@@ -33,7 +33,7 @@ banco-api-testes/
 └── README.md            # documentação (este arquivo)
 ```
 
-**Nota:** a pasta `mochawesome-report/` **não** está presente no repositório (é gerada quando os testes são executados com Mochawesome). Se você quer manter os relatórios gerados fora do controle de versão, inclua `mochawesome-report/` no `.gitignore` (exemplos abaixo). Referência Mochawesome: documentação de geração de relatórios. citeturn7search3
+**Nota:** a pasta `mochawesome-report/` **não** está presente no repositório (é gerada quando os testes são executados com Mochawesome). Se você quer manter os relatórios gerados fora do controle de versão, inclua `mochawesome-report/` no `.gitignore` (exemplos abaixo). Referência Mochawesome: documentação de geração de relatórios.
 
 ---
 
@@ -73,7 +73,7 @@ Após a execução com Mochawesome, o relatório HTML normalmente fica em:
 mochawesome-report/mochawesome.html
 ```
 
-> Verifique os scripts em `package.json` para confirmar nomes específicos dos comandos. (o `package.json` está no repositório). citeturn2view0
+> Verifique os scripts em `package.json` para confirmar nomes específicos dos comandos. (o `package.json` está no repositório).
 
 ---
 
@@ -96,9 +96,6 @@ npm-debug.log
 .DS_Store
 .vscode/
 ```
-
-> Foi verificado que `.gitignore` existe no repositório. citeturn5view0
-
 ---
 
 ## 📄 Boas práticas e observações
@@ -128,6 +125,3 @@ npm-debug.log
 Siga as regras do repositório e adicione descrições claras nos commits.
 
 ---
-
-## Licença
-MIT (ou conforme o arquivo LICENSE do repositório, se presente).
